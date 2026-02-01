@@ -11,7 +11,7 @@ if page == "Home":
     st.title("🏠 Welcome to Team QuadCore")
     st.image("https://media.giphy.com/media/l41YmQjOz9qg2EJfG/giphy.gif", width=300) # Fun GIF
     st.write("""
-    Ye humara **All-in-One Solution**.
+     **All-in-One Solution**.
     👈 In the sidebar menu, you can navigate to different pages.
     """)
     st.info("We are ready for Hackathon 🦁")
@@ -35,4 +35,5 @@ elif page == "Registration":
     role = st.selectbox("Role:", ["Coder", "Designer", "Presenter"])
     
     if st.button("Submit"):
+
         st.success(f"Welcome {name}! You are the new {role}.")
