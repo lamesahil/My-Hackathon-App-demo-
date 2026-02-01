@@ -8,9 +8,9 @@ if menu_choice == "Home":
     st.image("https://media.giphy.com/media/Q81NcsY6YxK7nxfFD0/giphy.gif", width=300) # Fun GIF
     st.write("""
     Ye humara **All-in-One Solution** hai.
-    👈 Side menu se alag-alag pages check karein.
+    👈 In the sidebar menu, you can navigate to different pages.
     """)
-    st.info("Hackathon ke liye hum ready hain! 🦁")
+    st.info("We are ready for Hackathon 🦁")
 elif menu_choice == "BMI Calculator":
     st.title("Health Monitoring Dashboard (BMI)")
     st.write("This application calculates your Body Mass Index (BMI) based on your weight and height.")

@@ -8,7 +8,7 @@ st.header("Project: Hackathon 2026")
 st.subheader("Created by: Sahil & Team")
 
 # 3. Magic Write (Sabse important)
-st.write("Ye Streamlit ka magic hai. Hum bina HTML likhe website bana rahe hain!")
+st.write("Learnnig Streamlit for frontend is fun and exciting! 🎉")
 
 # 4. Code dikhana (Professional lagta hai)
 st.code("print('Hello Hackathon')", language='python')

@@ -9,12 +9,12 @@ page = st.sidebar.radio("Go to:", ["Home", "Stock Dashboard", "Registration"])
 # 2. PAGE 1: HOME
 if page == "Home":
     st.title("🏠 Welcome to Team QuadCore")
-    st.image("https://media.giphy.com/media/Q81NcsY6YxK7nxfFD0/giphy.gif", width=300) # Fun GIF
+    st.image("https://media.giphy.com/media/l41YmQjOz9qg2EJfG/giphy.gif", width=300) # Fun GIF
     st.write("""
-    Ye humara **All-in-One Solution** hai.
-    👈 Side menu se alag-alag pages check karein.
+    Ye humara **All-in-One Solution**.
+    👈 In the sidebar menu, you can navigate to different pages.
     """)
-    st.info("Hackathon ke liye hum ready hain! 🦁")
+    st.info("We are ready for Hackathon 🦁")
 
 # 3. PAGE 2: STOCK DASHBOARD (Tera Graph wala code)
 elif page == "Stock Dashboard":
