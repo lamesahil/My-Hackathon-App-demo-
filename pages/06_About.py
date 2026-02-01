@@ -7,7 +7,7 @@ if menu_choice == "Home":
     st.title("🏠 Welcome to Team QuadCore")
     st.image("https://media.giphy.com/media/Q81NcsY6YxK7nxfFD0/giphy.gif", width=300) # Fun GIF
     st.write("""
-    Ye humara **All-in-One Solution** hai.
+    **All-in-One Solution** hai.
     👈 In the sidebar menu, you can navigate to different pages.
     """)
     st.info("We are ready for Hackathon 🦁")
@@ -55,4 +55,5 @@ elif menu_choice == "Registration Form":
     
     if st.button("Submit"):
         st.success(f"Welcome {name}! You are the new {role}.")  
+
         
