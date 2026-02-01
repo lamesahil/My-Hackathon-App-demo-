@@ -28,7 +28,7 @@ col3, col4 = st.columns(2)
 
 with col3:
     st.subheader("Kshitij Singh")
-    st.caption("🎓 B.E. (AIML) - TCET")
+    st.caption("🎓 B. Tech (AIML) - TCET")
     st.write("AI/ML Expert.")
     st.markdown("[📸 Instagram](https://www.instagram.com/known_one4u)")
 
@@ -39,4 +39,5 @@ with col4:
     st.markdown("[📸 Instagram](https://www.instagram.com/dubey_omii_.05)")
 
 st.markdown("---")
+
 st.success("Feel free to connect with us! 🚀")
